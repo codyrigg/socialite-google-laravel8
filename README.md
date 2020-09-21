@@ -2,8 +2,10 @@
 
 ## About This Laravel Repo
 
-This repository is built with Laravel 8, Jetstream and Socialite. It allows you to login to your application using google. 
-To do so, simply create credentials at [Google Developers Console](https://console.developers.google.com/apis/credentials?pli=1) and put the client ID, Client Secret and callback url in your .env. 
+This repository is built with [Laravel 8](https://github.com/laravel/laravel), [Jetstream](https://github.com/laravel/jetstream) and [Socialite](https://github.com/laravel/socialite). It allows you to login to your application using google. 
+To do so, simply create credentials at [Google Developers Console](https://console.developers.google.com/apis/credentials?pli=1) and put the GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in your .env. 
+
+Then build your app with google authentication!
 
 ## License
 
