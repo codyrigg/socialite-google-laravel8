@@ -42,7 +42,7 @@ class LoginController extends Controller
                     'name' => $user->name,
                     'email' => $user->email,
                     'google_id'=> $user->id,
-                    'password' => encrypt('')
+                    'password' => encrypt('NnPWYJn1D22w')
                 ]);
                 //every user needs a team for dashboard/jetstream to work.
                 //create a personal team for the user
